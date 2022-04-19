@@ -17,6 +17,14 @@ end
 p word
 p word_guess
 
+# word.each do |l|
+#   if l == letter do
+#     i = word.index(letter)
+#     word_guess[i] = letter
+#     word[i] = '*'
+#   end
+# end
+
 # else the letter dont match, put a part of body of human and show the wrong letter in a list
 wrong_letters = []
 unless word.include? letter
